@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@date-io/dayjs": "^2.13.1",
-    "@emotion/react": "^11.7.1",
+    "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.6.0",
     "@google-cloud/storage": "^5.18.2",
     "@google-cloud/translate": "^6.3.1",
