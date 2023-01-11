@@ -4909,9 +4909,9 @@ color@^4.2.1:
     color-convert "^2.0.1"
     color-string "^1.9.0"
 
-colorette@2.0.16:
-  version "2.0.16"
-  resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.16.tgz#713b9af84fdb000139f04546bd4a93f62a5085da"
+colorette@2.0.19:
+  version "2.0.19"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.19.tgz#cdf044f47ad41a0f4b56b3a0d5b4e6e1a2d5a798"
 
 colorette@^1.2.2:
   version "1.4.0"
@@ -4947,9 +4947,9 @@ commander@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
 
-commander@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-9.0.0.tgz#86d58f24ee98126568936bd1d3574e0308a99a40"
+commander@^9.0.0, commander@^9.1.0:
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-9.5.0.tgz#bc08d1eb5cedf7ccb797a96199d41c7bc3e60d30"
 
 common-path-prefix@^3.0.0:
   version "3.0.0"
@@ -5319,9 +5319,9 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@4.3.3, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3:
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
+debug@4, debug@4.3.4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   dependencies:
     ms "2.1.2"
 
@@ -8347,15 +8347,16 @@ klona@^2.0.4:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
 
-knex@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/knex/-/knex-1.0.3.tgz#a5f97aa98e5e036cfd0209a90d53b2a411280e84"
+knex@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/knex/-/knex-2.4.0.tgz#7d33cc36f320cdac98741010544b4c6a98b8b19e"
   dependencies:
-    colorette "2.0.16"
-    commander "^8.3.0"
-    debug "4.3.3"
+    colorette "2.0.19"
+    commander "^9.1.0"
+    debug "4.3.4"
     escalade "^3.1.1"
     esm "^3.2.25"
+    get-package-type "^0.1.0"
     getopts "2.3.0"
     interpret "^2.2.0"
     lodash "^4.17.21"
